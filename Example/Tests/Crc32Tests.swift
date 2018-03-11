@@ -32,15 +32,15 @@ class Crc32Tests: XCTestCase {
     static let Crc32Crc : UInt32 = 0xBCA3571E;
     
     
-    func crc32Validation() {
-        XCTAssert( Crc32.computeChecksum(Crc8Tests.TestBuffer) == Crc32Tests.Crc32Crc );
+    func test_crc32Validation() {
+        XCTAssertEqual( Crc32.computeChecksum(Crc8Tests.TestBuffer), Crc32Tests.Crc32Crc );
     }
     
-    func crc32SegmentValidation() {
-        XCTAssert( Crc32.computeChecksum( Crc8Tests.ExtendedTestBuffer, startingAt: 3, length: 11) == Crc32Tests.Crc32Crc );
+    func test_crc32SegmentValidation() {
+        XCTAssertEqual( Crc32.computeChecksum( Crc8Tests.ExtendedTestBuffer, startingAt: 3, length: 11), Crc32Tests.Crc32Crc );
     }
     
-    func crc32TestPerformance() {
+    func test_crc32TestPerformance() {
         self.measure {
             var _ = Crc32.computeChecksum( Crc32Tests.TestBuffer );
         }

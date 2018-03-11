@@ -30,17 +30,16 @@ class Crc8Tests: XCTestCase {
     static let TestBuffer : [UInt8] = [ 0x74, 0x65, 0x73, 0x74, 0x20, 0x62, 0x75, 0x66, 0x66, 0x65, 0x72 ];
     static let ExtendedTestBuffer : [UInt8] = [ 0x00, 0x01, 0x02, 0x74, 0x65, 0x73, 0x74, 0x20, 0x62, 0x75, 0x66, 0x66, 0x65, 0x72, 0x03, 0x04 ];
     static let Crc8Crc : UInt8 = 0xF9;
-
     
-    func crc8Validation() {
-        XCTAssert( Crc8.computeChecksum(Crc8Tests.TestBuffer) == Crc8Tests.Crc8Crc );
+    func test_crc8Validation() {
+        XCTAssertEqual( Crc8.computeChecksum(Crc8Tests.TestBuffer), Crc8Tests.Crc8Crc );
     }
     
-    func crc8SegmentValidation() {
-        XCTAssert( Crc8.computeChecksum( Crc8Tests.ExtendedTestBuffer, startingAt: 3, length: 11) == Crc8Tests.Crc8Crc );
+    func test_crc8SegmentValidation() {
+        XCTAssertEqual( Crc8.computeChecksum( Crc8Tests.ExtendedTestBuffer, startingAt: 3, length: 11), Crc8Tests.Crc8Crc );
     }
     
-    func crc8TestPerformance() {
+    func test_crc8TestPerformance() {
         self.measure {
             var _ = Crc8.computeChecksum( Crc8Tests.TestBuffer );
         }
