@@ -1,6 +1,6 @@
 # nullfx.crc
 
-[![CI Status](http://img.shields.io/travis/nullfx/nullfx.crc.svg?style=flat)](https://travis-ci.org/nullfx/swift-nullfx.crc)
+[![CI Status](http://img.shields.io/travis/nullfx/swift-nullfx.crc.svg?style=flat)](https://travis-ci.org/nullfx/swift-nullfx.crc)
 [![Version](https://img.shields.io/cocoapods/v/nullfx.crc.svg?style=flat)](http://cocoapods.org/pods/nullfx.crc)
 [![License](https://img.shields.io/cocoapods/l/nullfx.crc.svg?style=flat)](http://cocoapods.org/pods/nullfx.crc)
 [![Platform](https://img.shields.io/cocoapods/p/nullfx.crc.svg?style=flat)](http://cocoapods.org/pods/nullfx.crc)
