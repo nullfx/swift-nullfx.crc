@@ -1,0 +1,6 @@
+framework module nullfx_crc {
+  umbrella header "nullfx.crc-umbrella.h"
+
+  export *
+  module * { export * }
+}

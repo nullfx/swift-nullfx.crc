@@ -1,0 +1,6 @@
+use_frameworks!
+target 'nullfx.crc_Tests' do
+  pod 'nullfx.crc', :path => '../'
+  
+  
+end

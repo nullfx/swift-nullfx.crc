@@ -1,0 +1,6 @@
+framework module Pods_nullfx_crc_Tests {
+  umbrella header "Pods-nullfx.crc_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
