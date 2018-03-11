@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0521A2ECB42A31B6DF63A00FCBE3715F /* crc16Dnp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881387E7EBD0F0178C33679C69F92C1F /* crc16Dnp.swift */; };
+		01D69A4A9EE4D73C5A30FB004B179BD9 /* crc16CcittKermit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62735153C9156D1DA85113E8C5FC5809 /* crc16CcittKermit.swift */; };
 		1807E5F9D5DBA5B60C3BD52E3D8CFC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2CF1D6C14246617234DF2307A9198AC0 /* crc16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CB03AB0CFCD13E22A370B7415C43D /* crc16.swift */; };
-		61E822104919A6AE3A883BFFCF218E14 /* crc8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89615CBAA07D458EFD1C1267AF437F85 /* crc8.swift */; };
-		78BB5B857FAAE86448382EB5A04068E0 /* nullfx.crc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCC6FA4F9353886C25ECDAE2B10FE19 /* nullfx.crc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E312B90935DA3EF7CEF993463C812F4 /* crc16Dnp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DAF659E97E218849DA2A0E4C491428 /* crc16Dnp.swift */; };
+		3F033F17F1DC6A14A99030755A827575 /* crc16.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8AB7E119B0128CF3EFB9C69972615 /* crc16.swift */; };
+		78BB5B857FAAE86448382EB5A04068E0 /* nullfx.crc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 273868064BF227462ECB06AAC209ED3C /* nullfx.crc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BDA696B453CAC41F5308EEBC3B906B3 /* crc16ccitt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A2EE4F71497A0917960252458E14EB /* crc16ccitt.swift */; };
 		A229467FE5734B73CC710710EA29628B /* Pods-nullfx.crc_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59607E4FA07A44D7901E6BF35FDBF76C /* Pods-nullfx.crc_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A49393588E25A71DB7DA2D01877E1F34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A74667642A72A15B36ACD3B7A08D3179 /* crc16ccitt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D907199F7422D9BB428AFA9CB2A583 /* crc16ccitt.swift */; };
-		C4532BB318BBBF29A9495904EAC267D3 /* Crc16InitialValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCE4E9BA2009B220EC88FBEDD868990 /* Crc16InitialValue.swift */; };
-		C7F75323046DCFC4A4B7F610CF26E918 /* crc32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688621F94AD48EE7DF7A64E3D7654F59 /* crc32.swift */; };
-		CD61DCEE7E215491413BC134B1FC4956 /* nullfx.crc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F39D7990AB6DBE0D7507616A89DFAE /* nullfx.crc-dummy.m */; };
-		ED33A0D64A77914C68C46C993219769D /* crc16CcittKermit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EDB63A89BB5D5E3C6052F449B8DF48 /* crc16CcittKermit.swift */; };
+		BF8EB6D950844C71995E09E7B0437932 /* nullfx.crc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E104EFE6D273F274AC942BE1661EC /* nullfx.crc-dummy.m */; };
+		CFD1DF992A5ED14D65647B9AE5628D66 /* crc8.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0323D0396682CFA0279C6F1FF49F0C3 /* crc8.swift */; };
+		E8A5F960F1725E9DFB7C2115A2C1A6A1 /* crc32.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8224C50B2E535D560A0F38310295871 /* crc32.swift */; };
+		EBBF62B4F502C3A56DABE97882F8A758 /* crc16InitialValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4754A76A84F642AF51F9033FA945D1D4 /* crc16InitialValue.swift */; };
 		F707B1D7277CB64D1F429DC13CE89FD5 /* Pods-nullfx.crc_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7558ECDA12182D139A0B0F1FF0FD84 /* Pods-nullfx.crc_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -33,36 +33,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DCC6FA4F9353886C25ECDAE2B10FE19 /* nullfx.crc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nullfx.crc-umbrella.h"; sourceTree = "<group>"; };
-		10F825C3C6C5EDD86AE1E1A718458335 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		164CB03AB0CFCD13E22A370B7415C43D /* crc16.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc16.swift; path = nullfx.crc/Classes/crc16.swift; sourceTree = "<group>"; };
 		1A041E56C0C5D18C886C90992CFECDE9 /* Pods-nullfx.crc_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nullfx.crc_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1A7558ECDA12182D139A0B0F1FF0FD84 /* Pods-nullfx.crc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nullfx.crc_Tests-dummy.m"; sourceTree = "<group>"; };
-		3E8DA99C169135D7042996772AC44BB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45060066CD1904AF121650946D3BE542 /* nullfx.crc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = nullfx.crc.modulemap; sourceTree = "<group>"; };
+		212E104EFE6D273F274AC942BE1661EC /* nullfx.crc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nullfx.crc-dummy.m"; sourceTree = "<group>"; };
+		273868064BF227462ECB06AAC209ED3C /* nullfx.crc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nullfx.crc-umbrella.h"; sourceTree = "<group>"; };
+		4754A76A84F642AF51F9033FA945D1D4 /* crc16InitialValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc16InitialValue.swift; path = nullfx.crc/Classes/crc16InitialValue.swift; sourceTree = "<group>"; };
+		51F1F1D5658E1E3F8305DCB60C3BCDFB /* nullfx.crc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = nullfx.crc.modulemap; sourceTree = "<group>"; };
 		54BDF23D5A5070D9F9B7A4A88A4A4307 /* Pods-nullfx.crc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nullfx.crc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		54E8D1933F4063B5C9E8BE86525D1432 /* Pods-nullfx.crc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nullfx.crc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		59607E4FA07A44D7901E6BF35FDBF76C /* Pods-nullfx.crc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nullfx.crc_Tests-umbrella.h"; sourceTree = "<group>"; };
-		601B3C1958B4FB7E911257FB60F587DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		60A2EE4F71497A0917960252458E14EB /* crc16ccitt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc16ccitt.swift; path = nullfx.crc/Classes/crc16ccitt.swift; sourceTree = "<group>"; };
+		62735153C9156D1DA85113E8C5FC5809 /* crc16CcittKermit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc16CcittKermit.swift; path = nullfx.crc/Classes/crc16CcittKermit.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		688621F94AD48EE7DF7A64E3D7654F59 /* crc32.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc32.swift; path = nullfx.crc/Classes/crc32.swift; sourceTree = "<group>"; };
 		768D41186E27CC6C7531DA774116C1F8 /* Pods-nullfx.crc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nullfx.crc_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7F79670844D87EDB3212A91E2FDA9BF2 /* nullfx_crc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nullfx_crc.framework; path = nullfx.crc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CC43F535EE0CCCF29EB35371EBB23C /* Pods-nullfx.crc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-nullfx.crc_Tests.modulemap"; sourceTree = "<group>"; };
-		85F39D7990AB6DBE0D7507616A89DFAE /* nullfx.crc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nullfx.crc-dummy.m"; sourceTree = "<group>"; };
-		881387E7EBD0F0178C33679C69F92C1F /* crc16Dnp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc16Dnp.swift; path = nullfx.crc/Classes/crc16Dnp.swift; sourceTree = "<group>"; };
-		89615CBAA07D458EFD1C1267AF437F85 /* crc8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc8.swift; path = nullfx.crc/Classes/crc8.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99633BC2E5A8BE9F2F1346FAD09F36DB /* nullfx.crc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nullfx.crc.xcconfig; sourceTree = "<group>"; };
-		9F1A402A03F7F3438307E677986AB5F5 /* nullfx.crc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = nullfx.crc.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0EDB63A89BB5D5E3C6052F449B8DF48 /* crc16CcittKermit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc16CcittKermit.swift; path = nullfx.crc/Classes/crc16CcittKermit.swift; sourceTree = "<group>"; };
+		A7DAF659E97E218849DA2A0E4C491428 /* crc16Dnp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc16Dnp.swift; path = nullfx.crc/Classes/crc16Dnp.swift; sourceTree = "<group>"; };
+		A9B8AB7E119B0128CF3EFB9C69972615 /* crc16.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc16.swift; path = nullfx.crc/Classes/crc16.swift; sourceTree = "<group>"; };
 		B3A2814B9CA8A9FBCA0946B04DF12D9C /* Pods-nullfx.crc_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nullfx.crc_Tests-resources.sh"; sourceTree = "<group>"; };
 		B58D1DD31AF854C39E463CB47512E159 /* Pods-nullfx.crc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nullfx.crc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA46FE90EDA12F93404322A2DFDF653B /* Pods_nullfx_crc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_nullfx_crc_Tests.framework; path = "Pods-nullfx.crc_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F19387FD982A948F3FD7C9D5FE8F29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAFA7E516BA5DA705C2E3FE8F53157DD /* nullfx.crc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nullfx.crc-prefix.pch"; sourceTree = "<group>"; };
-		DBCE4E9BA2009B220EC88FBEDD868990 /* Crc16InitialValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Crc16InitialValue.swift; path = nullfx.crc/Classes/Crc16InitialValue.swift; sourceTree = "<group>"; };
-		F9D907199F7422D9BB428AFA9CB2A583 /* crc16ccitt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc16ccitt.swift; path = nullfx.crc/Classes/crc16ccitt.swift; sourceTree = "<group>"; };
+		C8224C50B2E535D560A0F38310295871 /* crc32.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc32.swift; path = nullfx.crc/Classes/crc32.swift; sourceTree = "<group>"; };
+		CB1E41566424CEEB87215E346DB9DB0E /* nullfx.crc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nullfx.crc.xcconfig; sourceTree = "<group>"; };
+		CBF79B322273F4AC23FA478AE22C43A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0323D0396682CFA0279C6F1FF49F0C3 /* crc8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = crc8.swift; path = nullfx.crc/Classes/crc8.swift; sourceTree = "<group>"; };
+		FBE14D9B576137EDC28D595E2B2DA2B2 /* nullfx.crc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nullfx.crc-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,31 +82,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20B2CB4BECD479E31507645F675B456F /* nullfx.crc */ = {
+		1E57AA93D688420C1B52DA8266400995 /* nullfx.crc */ = {
 			isa = PBXGroup;
 			children = (
-				164CB03AB0CFCD13E22A370B7415C43D /* crc16.swift */,
-				F9D907199F7422D9BB428AFA9CB2A583 /* crc16ccitt.swift */,
-				A0EDB63A89BB5D5E3C6052F449B8DF48 /* crc16CcittKermit.swift */,
-				881387E7EBD0F0178C33679C69F92C1F /* crc16Dnp.swift */,
-				DBCE4E9BA2009B220EC88FBEDD868990 /* Crc16InitialValue.swift */,
-				688621F94AD48EE7DF7A64E3D7654F59 /* crc32.swift */,
-				89615CBAA07D458EFD1C1267AF437F85 /* crc8.swift */,
-				512B439DE7635FADA4582BED9AF7F5C9 /* Pod */,
-				926ABEAA72227D798B34A6BB70C54910 /* Support Files */,
+				A9B8AB7E119B0128CF3EFB9C69972615 /* crc16.swift */,
+				60A2EE4F71497A0917960252458E14EB /* crc16ccitt.swift */,
+				62735153C9156D1DA85113E8C5FC5809 /* crc16CcittKermit.swift */,
+				A7DAF659E97E218849DA2A0E4C491428 /* crc16Dnp.swift */,
+				4754A76A84F642AF51F9033FA945D1D4 /* crc16InitialValue.swift */,
+				C8224C50B2E535D560A0F38310295871 /* crc32.swift */,
+				D0323D0396682CFA0279C6F1FF49F0C3 /* crc8.swift */,
+				DA5C43F671F545DE8B652F64CB8CFB2C /* Support Files */,
 			);
 			name = nullfx.crc;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		512B439DE7635FADA4582BED9AF7F5C9 /* Pod */ = {
+		3246679FC5F1C6FB7827F4DB7D743D5E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				10F825C3C6C5EDD86AE1E1A718458335 /* LICENSE */,
-				9F1A402A03F7F3438307E677986AB5F5 /* nullfx.crc.podspec */,
-				601B3C1958B4FB7E911257FB60F587DF /* README.md */,
+				1E57AA93D688420C1B52DA8266400995 /* nullfx.crc */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5E6F4DECE20EFD226D858B396ECCB760 /* Targets Support Files */ = {
@@ -124,33 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8E734126072E20B984ED1D00EF559BB3 /* Development Pods */,
+				3246679FC5F1C6FB7827F4DB7D743D5E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A42028D2D729624450EF18DC196B2746 /* Products */,
 				5E6F4DECE20EFD226D858B396ECCB760 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8E734126072E20B984ED1D00EF559BB3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				20B2CB4BECD479E31507645F675B456F /* nullfx.crc */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		926ABEAA72227D798B34A6BB70C54910 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3E8DA99C169135D7042996772AC44BB5 /* Info.plist */,
-				45060066CD1904AF121650946D3BE542 /* nullfx.crc.modulemap */,
-				99633BC2E5A8BE9F2F1346FAD09F36DB /* nullfx.crc.xcconfig */,
-				85F39D7990AB6DBE0D7507616A89DFAE /* nullfx.crc-dummy.m */,
-				DAFA7E516BA5DA705C2E3FE8F53157DD /* nullfx.crc-prefix.pch */,
-				0DCC6FA4F9353886C25ECDAE2B10FE19 /* nullfx.crc-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/nullfx.crc";
 			sourceTree = "<group>";
 		};
 		A42028D2D729624450EF18DC196B2746 /* Products */ = {
@@ -196,6 +168,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		DA5C43F671F545DE8B652F64CB8CFB2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBF79B322273F4AC23FA478AE22C43A8 /* Info.plist */,
+				51F1F1D5658E1E3F8305DCB60C3BCDFB /* nullfx.crc.modulemap */,
+				CB1E41566424CEEB87215E346DB9DB0E /* nullfx.crc.xcconfig */,
+				212E104EFE6D273F274AC942BE1661EC /* nullfx.crc-dummy.m */,
+				FBE14D9B576137EDC28D595E2B2DA2B2 /* nullfx.crc-prefix.pch */,
+				273868064BF227462ECB06AAC209ED3C /* nullfx.crc-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/nullfx.crc";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -222,7 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DC70747A3571351F10531F287CC5D23 /* Build configuration list for PBXNativeTarget "nullfx.crc" */;
 			buildPhases = (
-				21533200FAC5B3D6D40B071918E321B1 /* Sources */,
+				BCC254D39813BAECE827EDCBBC847284 /* Sources */,
 				C7267EA14416D84CF16B2C4C02937A1A /* Frameworks */,
 				7CE04DB5BD10D8AA62496349B66B745D /* Headers */,
 			);
@@ -281,18 +267,18 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21533200FAC5B3D6D40B071918E321B1 /* Sources */ = {
+		BCC254D39813BAECE827EDCBBC847284 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF1D6C14246617234DF2307A9198AC0 /* crc16.swift in Sources */,
-				A74667642A72A15B36ACD3B7A08D3179 /* crc16ccitt.swift in Sources */,
-				ED33A0D64A77914C68C46C993219769D /* crc16CcittKermit.swift in Sources */,
-				0521A2ECB42A31B6DF63A00FCBE3715F /* crc16Dnp.swift in Sources */,
-				C4532BB318BBBF29A9495904EAC267D3 /* Crc16InitialValue.swift in Sources */,
-				C7F75323046DCFC4A4B7F610CF26E918 /* crc32.swift in Sources */,
-				61E822104919A6AE3A883BFFCF218E14 /* crc8.swift in Sources */,
-				CD61DCEE7E215491413BC134B1FC4956 /* nullfx.crc-dummy.m in Sources */,
+				3F033F17F1DC6A14A99030755A827575 /* crc16.swift in Sources */,
+				8BDA696B453CAC41F5308EEBC3B906B3 /* crc16ccitt.swift in Sources */,
+				01D69A4A9EE4D73C5A30FB004B179BD9 /* crc16CcittKermit.swift in Sources */,
+				2E312B90935DA3EF7CEF993463C812F4 /* crc16Dnp.swift in Sources */,
+				EBBF62B4F502C3A56DABE97882F8A758 /* crc16InitialValue.swift in Sources */,
+				E8A5F960F1725E9DFB7C2115A2C1A6A1 /* crc32.swift in Sources */,
+				CFD1DF992A5ED14D65647B9AE5628D66 /* crc8.swift in Sources */,
+				BF8EB6D950844C71995E09E7B0437932 /* nullfx.crc-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +304,7 @@
 /* Begin XCBuildConfiguration section */
 		087BABC9629677089DF89ACDB8AEB8A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99633BC2E5A8BE9F2F1346FAD09F36DB /* nullfx.crc.xcconfig */;
+			baseConfigurationReference = CB1E41566424CEEB87215E346DB9DB0E /* nullfx.crc.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -404,7 +390,7 @@
 		};
 		2137A7CE0B1633D1C2DD52999DFFB015 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99633BC2E5A8BE9F2F1346FAD09F36DB /* nullfx.crc.xcconfig */;
+			baseConfigurationReference = CB1E41566424CEEB87215E346DB9DB0E /* nullfx.crc.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
