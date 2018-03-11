@@ -21,5 +21,5 @@ before_install:
 script:
  - set -o pipefail
  - xcodebuild test -enableCodeCoverage YES -workspace Example/nullfx.crc.xcworkspace -scheme nullfx.crc-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
- - swiftlint
+# - swiftlint
  - pod lib lint
