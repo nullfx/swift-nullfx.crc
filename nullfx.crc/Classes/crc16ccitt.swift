@@ -49,11 +49,11 @@ public class Crc16Ccitt {
         if on.count <= 0 {
             return 0;
         }
-        var crc : UInt16 = with.rawValue;
+        var crc : UInt16 = UInt16(with.rawValue);
         let endingAt : Int = startingAt + length - 1;
         if ( on.count > 0 && startingAt < length && endingAt <= on.count ) {
             for i in  startingAt ... endingAt {
-                crc = UInt16( ( crc >> 8 ) ^ table[ Int( (crc ^ UInt16(on[i])) & 0xff ) ] );
+                crc = UInt16( ( crc << 8 ) ^ table[ Int( ((( crc >> 8 )) ^ UInt16(on[i])) & 0xff ) ] );
             }
         }
         return crc;
