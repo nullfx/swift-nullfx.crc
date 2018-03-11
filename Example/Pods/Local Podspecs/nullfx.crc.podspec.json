@@ -1,8 +1,8 @@
 {
   "name": "nullfx.crc",
   "version": "1.0.0",
-  "summary": "NullFX CRC is a small set of CRC utilities (crc8, crc16, and crc32) written in native swift released under the MIT License",
-  "description": "NullFX CRC is a small set of CRC utilities (crc8, crc16, and crc32) written in native swift released under the MIT License",
+  "summary": "nullfx crc is a small set of CRC utilities (crc8, crc16, and crc32) written in native swift released under the MIT License",
+  "description": "nullfx crc is a small set of CRC utilities: crc8, various crc16 implementations, and crc32 written in swift released under the MIT License",
   "homepage": "https://github.com/nullfx/swift-nullfx.crc",
   "license": {
     "type": "MIT",
