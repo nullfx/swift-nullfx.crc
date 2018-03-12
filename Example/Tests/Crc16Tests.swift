@@ -97,7 +97,7 @@ class Crc16Tests: XCTestCase {
         }
     }
     
-    // crc 16 ccitt 0x1D0F iv
+    // crc 16 ccitt 0xFFFF iv
     func test_crc16ccittffffValidation() {
         XCTAssertEqual( Crc16Ccitt.computeChecksum( with: Crc16InitialValue.xFFFF, on: Crc16Tests.TestBuffer ), Crc16Tests.Crc16CcittFCrc );
     }
