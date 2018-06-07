@@ -19,3 +19,6 @@ pod 'nullfx.crc'
 ## License
 
 nullfx.crc is available under the MIT license. See the LICENSE file for more info.
+
+
+this repository is also mirrored on [GitLab](https://gitlab.com/nullfx/swift-nullfx.crc) and [BitBucket](https://bitbucket.org/nullfx/swift-nullfx.crc) just in case the new evil overlords kill off the greatness of github...
