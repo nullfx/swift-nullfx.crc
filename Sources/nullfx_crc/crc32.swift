@@ -1,1 +1,0 @@
-../../nullfx.crc/Classes/crc32.swift

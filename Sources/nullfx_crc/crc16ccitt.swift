@@ -1,1 +1,0 @@
-../../nullfx.crc/Classes/crc16ccitt.swift
