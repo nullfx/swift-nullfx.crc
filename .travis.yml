@@ -2,7 +2,7 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
-osx_image: xcode9.2
+osx_image: xcode10
 language: swift
 
 env:
@@ -13,7 +13,7 @@ cache: cocoapods
 podfile: Example/Podfile
 before_install:
  - brew update
- - rvm install ruby-2.2.2
+ - rvm install ruby-2.2.5
  - gem install cocoapods
  - gem install xcpretty -N
  - brew install swiftlint || true
