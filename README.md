@@ -22,3 +22,6 @@ nullfx.crc is available under the MIT license. See the LICENSE file for more inf
 
 
 this repository is also mirrored on [GitLab](https://gitlab.com/nullfx/swift-nullfx.crc) and [BitBucket](https://bitbucket.org/nullfx/swift-nullfx.crc) just in case the new evil overlords kill off the greatness of github...
+
+## Alternate
+There's another version of this library that uses swift PM here: https://github.com/nullfx/NullfxCrc
